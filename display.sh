@@ -9,6 +9,7 @@ else
     echo "Invalid argument $1"
 fi
 
+killall dzen2
 xmonad --restart
 sleep 2
 ~/bin/trayer.sh
